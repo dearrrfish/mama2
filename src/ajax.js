@@ -59,6 +59,7 @@ function ajax (options) {
 	xhr.onreadystatechange = function () {
 		if (xhr.readyState === 4 ) {
 			if (xhr.status === 200) {
+                var request = request || xhr
 				var data = request.responseText
 				if (contentType.toLowerCase() === 'json') {
 					try {

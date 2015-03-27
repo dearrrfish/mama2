@@ -5,4 +5,5 @@ module.exports = [
     require('./seeker_iqiyi'),
     require('./seeker_sohu')
 	// ,require('./seeker_example')
+    ,require('./seeker_youtube')
 ]
